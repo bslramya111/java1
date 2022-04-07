@@ -1,0 +1,30 @@
+import java.io.*;
+import java.util.*;
+class stuinfo
+{
+public static void main(String args[])
+{
+Scanner sc=new Scanner(System.in);
+int  sno;
+System.out.println("enter student number");
+sno=sc.nextInt();
+System.out.println("enter name");
+String sname=sc.next();
+System.out.println("enter phno");
+Long sphno=sc.nextLong();
+System.out.println("student id:"+sno);
+System.out.println("student name is:"+sname);
+System.out.println("phno is:"+sphno);
+}
+}
+output:
+D:\>javac stuinfo.java
+D:\>java stuinfo
+enter student number
+10022
+enter name
+ramya
+9966554435
+student id:10022
+student name is:ramya
+phno is:9966554435
