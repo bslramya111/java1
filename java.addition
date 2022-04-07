@@ -1,0 +1,23 @@
+import java.io.*;
+import java.util.*;
+class numbers
+{
+public static void main(String args[])
+{
+Scanner sc=new Scanner(System.in);
+int a,b,addition,subtraction,multiply;
+System.out.println("enter A value");
+a=sc.nextInt();
+System.out.println("enter B value");
+b=sc.nextInt();
+addition=a+b;
+subtraction=a-b;
+multiply=a*b;
+System.out.println("addition is:"+add);
+System.out.println("subtraction is:"+sub);
+System.out.println("multiplication is:"+mul);
+}
+}
+
+output:
+:\>javac numbers.java
